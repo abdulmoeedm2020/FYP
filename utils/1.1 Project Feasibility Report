@@ -1,0 +1,316 @@
+1.1 Project Feasibility Report
+Before starting any project feasibility report is created for that project. It’s like creating a plan of how the work is done and can we get some help/modules from the internet or not. And in our case. Can we get a dataset from the internet or do we need to collect it individually? Feasibility means that the project that is planned. Is it data and information available or we need to collect it from the staff, expertise, equipment and time. This feasibility report explains how this project is beneficial for us. There are many type of feasibility that are given below: 
+
+Technical
+Operational
+Economic
+Schedule
+Specification
+Information
+Motivational
+Legal and Ethical
+
+Technical Feasibility
+This is the most important part of the project before starting it. Technical feasibility means that this project is technically possible and we can develop it. And also the another query that answered in this step is that the project that’s in production has no production barriers. So, in our situation the dataset is not available on the internet, then we need to choose it. We will search it on different websites but we will not be able to get the dataset. That’s one of the biggest problems of our project. But after searching we are able to get the pictures for training so, this problem is solved. Next thing is to get the yolo ( you only look once ) version 5 that’s the latest model in the yolo series. So, that’#s the problem. We will not be able to get any help from the internet. But we will try it and if we are not able to resolve the error then we will use the yolo version 4. Next thing is we will deploy the mobile app or web app. First we will choose the flutter that’s also the latest framework for creating the web apps/mobile apps but if we are not able to get any help from the internet based on the error then we will create only a Web App on flask. So, the technologies that we used are Flask, Python, Flutter and Django and we have members that work on these languages and frameworks. This is the only software side now we will see the hardware problems. First thing in hardware is the drone. If we will create it then the leveling issue happens meaning the drone is not leveled. That's the big issue. So, we can buy it from the market. So, this problem is also solved. Now, we are able to move on to the next step.
+
+
+Operational Feasibility
+As, we know that the operational feasibility was that how the proposed system solved the problem and Is our members able to solve this problem? So, the answer will be yes we are able to solve this problem. The solution that we provided above can solve the problem 60-70%. So, the another thing is user is able to understand the system that we will create is that user is understand easily the system that’ll be created. In operational feasibility the one problem that we will face is training the yolo model. That's quite tough for us because we don’t have a high system that we will use. So, we can do that. We will train it on a system ( laptop ) and place it in front of the fan. And this problem is also resolved. 
+
+Economic Feasibility
+Economic feasibility/Cost-benefit analysis means that the whole estimated cost of  five or six is calculated and then on this base of costs. The whole cost that’s related to the project creation like electricity cost, employee’s pay and so on. Then we will think that we need to build that system now. Now we will calculate the whole cost for the project that we are going to build but it’s according to the customer.
+
+
+
+
+
+
+
+
+
+
+SIMPLE CASH FLOW PROJECTION
+
+
+
+Year 0
+Year 1
+Year 2
+Year 3
+Year 4
+Total
+Total Benefits
+
+
+Total Costs
+
+
+
+
+75,000
+20,000
+
+
+
+2500
+22,000
+
+
+
+2700
+23,500
+
+
+
+3000
+25,000
+
+
+
+4000
+90,500
+
+
+
+87,200
+Net Benefits
+( Total Benefits - Total Costs )
+(75,000)
+17,500
+19,300
+20,500
+21,000
+3300
+Cumulative Net Cash Flow
+(75,000)
+(57,500)
+(38,200)
+(17,700)
+3300
+
+
+
+
+So, according to the simple cash flow diagram the whole expense is covered in the three years and then the profit starts after three years. According to the above table after three year the profit you’ll get is 3300. After that we will create the Discounted cash flow projection chart. As we want to give the user 10% discount. So, we need to calculate the present value of the above table. So, now we will calculate the price after a 10% discount.
+The formula for calculating the present value is :
+		PV ( Present Value ) = Cash flow amount / ( 1 - rate of return )n
+
+DISCOUNT CASH FLOW PROJECTION
+        
+
+
+Year 0
+Year 1
+Year 2
+Year 3
+Year 4
+Total
+Total Benefits
+
+
+
+PV of total benefits
+
+
+20,000
+
+
+
+
+18,181
+22,000
+
+
+
+
+18,181
+23,500
+
+
+
+
+17,655
+25,000
+
+
+
+
+17,075
+
+
+
+
+
+71,092
+Total Cost
+
+
+
+PV of total cost
+75,000
+
+
+
+75,000
+17,500
+
+
+
+15,909
+19,300
+
+
+
+15,950
+20,500
+
+
+
+15,401
+21,000
+
+
+
+14,343
+
+
+
+
+136,603
+
+
+After that system analysts calculate the whole price for creating that system. So, 
+
+COSTS AND BENEFITS
+
+
+
+2021
+2022
+2023
+2024
+2025
+Total
+Benefits
+Increased Sales
+Reduction in Customer complaint calls
+Reduced Inventory Costs
+Total Benefits
+
+
+
+
+
+
+
+
+
+
+
+
+Development Costs
+2 Servers
+2 Cameras ( 8000 )
+Software Licence
+Server Software
+Development labour
+Total Development Cost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schedule Feasibility
+Time is an important factor. The assessment and evaluation of the completion of a project with the available staff and resources within time is very essential. Meeting deadlines and milestones should always be kept in mind.
+
+Specification Feasibility
+Requirements are the features that the system must have or a constraint that must be accepted for the customer. The question arises as to whether the requirements are clear and definite. The scope boundaries must also be assessed.
+
+Information Feasibility
+The feasibility of information must be assessed regarding its completion, reliability, and meaningfulness.
+
+Motivational Feasibility
+Evaluation of the client staff regarding the motivation to perform the necessary steps correctly and promptly must occur.
+
+Legal & Ethical Feasibility
+”Do any infringements or liabilities arise from this project? “ is the main focus of this feasibility.
