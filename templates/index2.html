@@ -1,0 +1,43 @@
+
+{% extends "layouts/base.html" %}
+
+{% block title %} Live stream {% endblock %} 
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+
+    <link rel="stylesheet" href="/static/assets/plugins/chart-morris/css/morris.css">
+
+{% endblock stylesheets %}
+
+{% block content %} 
+<div class=" pcoded-content">
+    <div class="pcoded-inner-content">
+        </style>
+          </head>
+          <body>
+          	<h1>YOLOv5</h1>
+          	<div class="clearfix">
+          		<div class="img-container" align="center">
+                	<p align="center">Live stream</p>
+                	<img src="{{ url_for('video_feed', feed_type='Camera_0') }}" class="center"  style="border:1px solid black;width:100%" alt="Live Stream">
+          		</div>
+        	</div>
+          </body>
+        </html>
+    </div>
+</div>
+
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="/static/assets/plugins/chart-morris/js/raphael.min.js"></script>
+    <script src="/static/assets/plugins/chart-morris/js/morris.min.js"></script>
+    <script src="/static/assets/js/pages/chart-morris-custom.js"></script>
+
+{% endblock javascripts %}
+
+

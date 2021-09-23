@@ -1,0 +1,40 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Charts Morris {% endblock %} 
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+
+    <link rel="stylesheet" href="/static/assets/plugins/chart-morris/css/morris.css">
+
+{% endblock stylesheets %}
+
+{% block content %}
+<div class=" pcoded-content">
+    <div class="pcoded-inner-content">
+    <form method="POST" action="/ipAddress">
+          
+    {% if message %}
+        <p class="error">{{message}}</p>
+    {% endif %}
+        <h2>ipAddress</h2>
+        <div class="form-group">
+            <label for="ipAddress">ipAddress : </label>
+            <input type="ipAddress" name="ipAddress" class="form-control" id="ipAddress">
+        </div>
+        <input type="submit" value="ipAddress">
+    </form>
+    </div>
+</div>
+
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="/static/assets/plugins/chart-morris/js/raphael.min.js"></script>
+    <script src="/static/assets/plugins/chart-morris/js/morris.min.js"></script>
+    <script src="/static/assets/js/pages/chart-morris-custom.js"></script>
+
+{% endblock javascripts %}
